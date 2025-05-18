@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const title = 'Website Name';
 const organizationName = 'itt130';
-const projectName = 'test-website';
+const projectName = 'test-website.github.io';
 const deploymentBranch = 'gh-pages';
 
 
@@ -18,7 +18,7 @@ const config: Config = {
 
   // Set the production url of your site here
   // url: 'https://your-docusaurus-site.example.com',
-  url: `https://${organizationName}.github.io`,
+  url: `https://${organizationName}`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: `/${projectName}/`,
